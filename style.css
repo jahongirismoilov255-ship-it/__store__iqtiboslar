@@ -1,0 +1,204 @@
+body {
+	background: #ccc;
+	margin: 0;
+	font-family: Arial;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	width: 90vw;
+	height: 10vh;
+	padding: 1rem;
+	box-shadow: 0 0 10px black;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	background: #ccc;
+	transform: translateX(-50%);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+header h1 {
+	font-size: 1.7rem;
+	color: #efefef;
+	text-shadow: 0 0 25px orange,
+				 0 0 25px orange,
+				 0 0 25px orange,
+				 0 0 25px orange;
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+	font-family: Verdana;
+}
+
+#iqtibos-section {
+	width: 100vw;
+	height: 100%;
+	padding: 0;
+	display: grid;
+	gap: 50px;
+}
+
+.sarlavha {
+	font-size: 1.5rem;
+	font-weight: 900;
+	text-align: center;
+	color: #efefef;
+	text-shadow: 0 0 25px purple,
+				 0 0 25px purple,
+				 0 0 25px purple,
+				 0 0 25px purple;
+	margin-top: 100px;
+}
+
+.iqtibos-div {
+	display: block;
+	width: 70vw;
+	height: auto;
+	margin: 0 auto;
+	padding: 1rem 1rem 0.3rem;
+	box-shadow: 0 0 25px #000;
+	border-radius: 20px;
+}
+
+.iqtibos {
+	font-family: Arial;
+	line-height: 30px;
+	font-size: 1.3rem;
+	color: #efefef;
+	text-shadow: 0 0 25px black,
+				 0 0 25px black,
+				 0 0 25px black,
+				 0 0 25px black;
+}
+
+.author {
+	display: block;
+	color: #efefef;
+	margin-top: 40px;
+	font-family: Verdana;
+	text-shadow: 0 0 20px black,
+				 0 0 20px black,
+				 0 0 20px black,
+				 0 0 20px black;
+	font-weight: 900;
+}
+
+footer {
+	margin: 50px auto 0;
+	width: 100vw;
+	height:	auto;
+	text-align: center;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	margin: 10px auto;
+}
+
+footer ul li a {
+	font-size: 1.2rem;
+	font-weight: 900;
+	color: #000;
+	text-shadow: 0 0 25px #efefef,
+				 0 0 25px #efefef,
+				 0 0 25px #efefef,
+				 0 0 25px #efefef;
+	transition: 0.3s;
+}
+
+footer ul li a:active {
+	color: #efefef;
+	text-shadow: 0 0 25px #000,
+				 0 0 25px #000,
+				 0 0 25px #000,
+				 0 0 25px #000;
+}
+
+@media (max-width: 800px) {
+	header {
+		height: auto;
+	}
+	header h1 {
+		font-size: 1.5rem;
+	}
+	.iqtibos-div {
+		width: 80vw;
+	}
+	
+	.iqtibos {
+		font-weight: bold;
+	}
+	
+	.author {
+		font-weight: 300;
+	}
+	footer {
+		margin: 30px auto 0;
+	}
+
+	footer ul li {
+		margin: 20px auto;
+	}
+	
+	footer ul li a {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 400px) {
+	header {
+		padding: 0.7rem;
+	}
+	
+	header h1 {
+		font-size: 1.5rem;
+		text-shadow: 0 0 25px orange,
+					 0 0 15px orange,
+					 0 0 15px orange,
+					 0 0 15px orange;
+	}
+	
+	#iqtibos-section {
+		width: 90vw;
+		margin: 0 auto;
+	}
+	
+	.sarlavha {
+		font-size: 1.4rem;
+		margin: 70px auto 10px;
+	}
+	
+	.iqtibos-div {
+		width: 80vw;
+		box-shadow: 0 0 25px #000;
+	}
+	
+	.iqtibos {
+		font-size: 1.3rem;
+		text-shadow: 0 0 15px black,
+					 0 0 15px black,
+					 0 0 15px black,
+					 0 0 15px black;
+	}
+	
+	.author {
+		text-shadow: 0 0 15px black,
+					 0 0 15px black,
+					 0 0 15px black,
+					 0 0 15px black;
+	}
+	
+	footer ul li {
+		margin: 20px auto;
+	}
+	
+	footer ul li a {
+		font-size: 1.3rem;
+	}
+}
